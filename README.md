@@ -92,16 +92,24 @@ In the **Achievements** menu, you can:
    - View the achievements you have unlocked and the achievements you still have to unlock.
    - Through the use of an offline Room database, achievements can be stored when no internet connection is available. Once the user regains an internet connection, their achievement progress will sync online.
 
-## Notifications
+### Notifications
    - Provide users with updates and reminders related to the game.
 
-## Biometrics 
+### Biometrics 
    - This users the built in biometrics auth the user has on their device if they have it enabled.
   - If the user fails the biometrics auth or if they biometrics reader is damaged the user cna user the lock screen pin as an alternative.
 
-## API
-The API manage handles the data transfer between the application and the database, it insures the leaderboard the management. (To be developed further) 
+## Furture Development
+- API to manage the data transfer between the application and the database, it insures the leaderboard management. (To be developed further) 
 
+## Youtube Demo 
+https://youtu.be/-6cNUjU5BEI?si=f4iwxk2SfM80cgQw
+
+## Contribution
+- ST10144906 (Darius Govender ~ Team Leader)
+- ST10204523 (Jaden Peramul)
+- ST10069637 (Jordan Farrell)
+- ST10108175 (Cael Botha-Richards) 
 
 
 
