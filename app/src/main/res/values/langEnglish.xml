@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings for the achievement card layout -->
+    <string name="achievement_name_label">Achievement Name</string>
+    <string name="achievement_status_locked">Status: Locked</string>
+    <string name="achievement_status_unlocked">Status: Unlocked</string>
+    <string name="achievement_unlocked">Achievement unlocked!</string>
+    <!-- Strings for the achievements screen -->
+    <string name="achievements_heading_label">Achievements</string>
+    <!-- Strings for the create game screen -->
+    <string name="match_it_title">Match It</string>
+    <string name="create_game_title">Create Game</string>
+    <string name="game_name_hint">Game name (example: pandafun)</string>
+    <string name="continue_button_text">Continue</string>
+    <!-- Strings for difficulty selection screen -->
+    <string name="select_difficulty">Select Difficulty</string>
+    <string name="difficulty_easy">Easy (4 x 2)</string>
+    <string name="difficulty_medium">Medium (6 x 3)</string>
+    <string name="difficulty_hard">Hard (6 x 4)</string>
+    <!-- Strings for GameActivity -->
+    <string name="moves_text">Moves:</string>
+    <string name="pairs_text">Pairs:</string>
+    <!-- Strings for the Game Sharing screen -->
+    <string name="game_sharing_title">Game Sharing</string>
+    <string name="create_button_text">Create</string>
+    <string name="download_button_text">Download</string>
+    <!-- Strings for the Game Over screen -->
+    <string name="game_over_title">Game Over</string>
+    <string name="high_score_label">High Score: </string>
+    <string name="score_doubled">Score doubled!</string>
+    <string name="ad_loaded_message">Ad loaded. Tap Double Score!</string>
+    <string name="ad_load_failed_message">Failed to load ad: %1$s</string>
+    <string name="ad_not_ready_message">Ad not ready. Please try again.</string>
+    <string name="new_high_score_message">New High Score</string>
+    <string name="you_won_message">You won!</string>
+    <!-- Strings for the Help screen -->
+    <string name="help_title">How to Play Match It!</string>
+    <string name="how_to_play_text">To play Match It!, you must first select from other Single-Player or Game Sharing options. Once an option has been selected, you can choose your difficulty setting, which will determine the number of cards in the game. To play, you must turn over two cards; the second card must match the first one you select, and will stay turned over. To win, you must turn over all cards on the screen.</string>
+    <!-- Strings for the Leaderboard screen -->
+    <string name="leaderboard_title">LeaderBoard</string>
+    <!-- Strings for the Login screen -->
+    <string name="welcome_back">Welcome Back</string>
+    <string name="log_into_account">Log back into your account</string>
+    <string name="login">Login</string>
+    <string name="google_login_button">Continue with </string>
+    <string name="login_button">Login</string>
+    <string name="or">or</string>
+    <string name="no_account">Don\'t have an account yet?</string>
+    <string name="login_failed">Authentication failed: %1$s</string>
+    <string name="empty_fields">Please fill out both fields</string>
+    <string name="google_sign_in_failed">Google sign in failed: %1$s</string>
+    <!-- Strings for the Main Menu screen -->
+    <string name="single_player_button_text">Single-Player</string>
+    <string name="exit_warning_title">Warning</string>
+    <string name="exit_warning_message">Are you sure you want to exit the game?</string>
+    <!-- Strings for the Register screen -->
+    <string name="sign_up_title">Sign Up</string>
+    <string name="register_account">Register a new account</string>
+    <string name="register_button_text">Register</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="password_mismatch_error">Passwords do not match</string>
+    <string name="log_in_text">Log in</string>
+    <!-- Strings for the Settings screen -->
+    <string name="settings_title">Settings</string>
+    <string name="logo_description">Logo Image</string>
+    <string name="user_email">jamesstone19@gmail.com</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="dark_mode_description">Enable Night Mode</string>
+    <string name="notification">Notification</string>
+    <string name="notification_description">Enable Notifications</string>
+    <string name="biometric_auth">Biometric Auth</string>
+    <string name="biometric_auth_description">Enable Biometric Authentication</string>
+    <string name="select_language">Select Language</string>
+    <string name="back">Back</string>
+    <string name="language">Language</string>
+    <string name="logout">Logout</string>
+    <string name ="change_language">Change Language</string>
+    <string name ="save">Save</string>
+    <string name="biometrics_enabled">Biometrics enabled</string>
+    <string name="biometrics_disabled">Biometrics disabled</string>
+    <string name="notifications_enabled">Notifications enabled</string>
+    <string name="notifications_disabled">Notifications disabled</string>
+    <string name="language_selection_title">Select Language</string>
+    <string name="save_language">Save</string>
+    <string name="current_user">Current User</string>
+    <!-- Strings for the Leaderboard Card -->
+    <string name="score_label">Score</string>
+    <string name="difficulty_label">Difficulty</string>
+    <!-- Strings for Game Creation -->
+    <string name="name_taken">Name already taken. Please choose another.</string>
+    <string name="game_name_exists">A game with this name already exists. Try a different name.</string>
+    <string name="choose_pictures">Please choose pictures for your game.</string>
+    <string name="error_saving_game">An error occurred while saving the game. Please try again.</string>
+    <string name="failed_checking_game_exists">Failed to check if the game exists. Please retry.</string>
+    <string name="failed_upload_image">Failed to upload image. Please try again.</string>
+    <string name="upload_failed">Failed game creation</string>
+    <string name="upload_complete">Upload complete! To play the game share code ( %1$s )</string>
+    <string name="ok">OK</string>
+    <string name="game_creation_failed">Exception with game creation</string>
+    <!-- Strings for DownloadActivity -->
+    <string name="name_blank">Game name can\'t be blank</string>
+    <!-- Strings for GameActivity -->
+    <string name="not_found">Sorry, we couldn\'t find any such game</string>
+    <string name="invalid_move">Invalid move</string>
+    <string name="game_already_won">You already won</string>
+    <string name="new_high_score">New High Score</string>
+    <string name="win_message">You won!</string>
+    <string name="moves_label">Moves: %1$d</string>
+    <string name="pairs_label">Pairs: %1$d / %2$d</string>
+    <!-- Strings for notifications -->
+    <string name="notification_title">Match Game</string>
+    <string name="notification_body">Come back and play!</string>
+    <!-- Strings for Register -->
+    <string name="join_now">Join Now</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="register">Register</string>
+    <string name="password_length_error">Password must be at least 6 characters</string>
+    <string name="fill_fields_error">Please fill out both fields</string>
+    <string name="verification_email_sent">Verification email sent to %1$s</string>
+    <string name="registration_failed">Registration failed: %1$s</string>
+    <!-- Strings for Splash Activity -->
+    <string name="biometric_prompt_title">Biometric Authentication</string>
+    <string name="biometric_prompt_subtitle">Authenticate using your biometric credentials</string>
+    <string name="security_setup_required">Security Setup Required</string>
+    <string name="setup_screen_lock_message">To use this feature, please set up a screen lock (PIN, pattern, or password) in your device\'s settings.</string>
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="cancel">Cancel</string>
+    <!-- Strings for Download Activity -->
+    <string name="game_not_found">Game %1$s not found or no images</string>
+    <string name="game_not_exist">Game %1$s does not exist</string>
+    <string name="error_checking_game">Error checking game: %1$s</string>
+    <!-- Strings for PermissionUtils -->
+    <string name="permission_required">Permission Required</string>
+    <string name="permission_required_message">This app requires certain permissions to function properly.</string>
+</resources>

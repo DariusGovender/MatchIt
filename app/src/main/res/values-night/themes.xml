@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MatchGame" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/primaryDark</item>
+        <item name="colorPrimaryVariant">@color/secondaryDark</item>
+        <item name="android:windowBackground">@color/backgroundDark</item>
+        <item name="colorAccent">@color/accentDark</item>
+
+        <item name="android:textColor">@color/textDark</item>
+        <item name="android:textColorPrimary">@color/textHeadingDark</item>
+    </style>
+</resources>

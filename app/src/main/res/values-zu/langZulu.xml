@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings for the achievement card layout -->
+    <string name="achievement_name_label">Igama Leziqhamo</string>
+    <string name="achievement_status_locked">Isimo: Livaliwe</string>
+    <string name="achievement_status_unlocked">Isimo: Likhululiwe</string>
+    <string name="achievement_unlocked">Iziqhamo zikhululiwe!</string>
+    <!-- Strings for the achievements screen -->
+    <string name="achievements_heading_label">Iziqhamo</string>
+    <!-- Strings for the create game screen -->
+    <string name="match_it_title">Match It</string>
+    <string name="create_game_title">Dala Umdlalo</string>
+    <string name="game_name_hint">Igama lomdlalo (isibonelo: pandafun)</string>
+    <string name="continue_button_text">Qhubeka</string>
+    <!-- Strings for difficulty selection screen -->
+    <string name="select_difficulty">Khetha Ubunzima</string>
+    <string name="difficulty_easy">Kulula (4 x 2)</string>
+    <string name="difficulty_medium">Phakathi (6 x 3)</string>
+    <string name="difficulty_hard">Kunobunzima (6 x 4)</string>
+    <!-- Strings for GameActivity -->
+    <string name="moves_text">Izinyathelo:</string>
+    <string name="pairs_text">Iziphakamiso:</string>
+    <!-- Strings for the Game Sharing screen -->
+    <string name="game_sharing_title">Umdlalo Wokuhlanganyela</string>
+    <string name="create_button_text">Dala</string>
+    <string name="download_button_text">Landa</string>
+    <!-- Strings for the Game Over screen -->
+    <string name="game_over_title">Umdlalo Uphelile</string>
+    <string name="high_score_label">Iphuzu Eliphezulu: </string>
+    <string name="score_doubled">Iphuzu liphindwe kabili!</string>
+    <string name="ad_loaded_message">Isikhangiso sikhishiwe. Thinta Iphuzu Eliphezulu!</string>
+    <string name="ad_load_failed_message">Ukukhishwa kwesikhangiso kwehlulekile: %1$s</string>
+    <string name="ad_not_ready_message">Isikhangiso asikakulungeli. Sicela uzame futhi.</string>
+    <string name="new_high_score_message">Iphuzu Eliphezulu Elisha</string>
+    <string name="you_won_message">Wina!</string>
+    <!-- Strings for the Help screen -->
+    <string name="help_title">Ukwenza kanjani ukujoyina Match It!</string>
+    <string name="how_to_play_text">Ukuze udlale Match It!, kufanele uqale ukhethe kokunye kokuhlangenwe nakho kwe-Single-Player noma Umdlalo Wokuhlanganyela. Uma enye inketho isikhethiwe, ungakhetha izilungiselelo zakho zokubunzima, ezizobeka inani lezikhiye emdlalweni. Ukuze udlale, kufanele uvule izikhumbuzo ezimbili; isikhumbuzo sesibili kufanele sihambisane nesokuqala okukhethile, futhi sizohlala sishintshile. Ukuze unqobe, kufanele uvule zonke izikhumbuzo esikrinini.</string>
+    <!-- Strings for the Leaderboard screen -->
+    <string name="leaderboard_title">I-Leaderboard</string>
+    <!-- Strings for the Login screen -->
+    <string name="welcome_back">Wamukelekile Emuva</string>
+    <string name="log_into_account">Ngena emuva kwi-akhawunti yakho</string>
+    <string name="login">Ngena</string>
+    <string name="google_login_button">Qhubeka nge </string>
+    <string name="login_button">Ngena</string>
+    <string name="or">noma</string>
+    <string name="no_account">Awunayo i-akhawunti okwamanje?</string>
+    <string name="login_failed">Ukuqinisekiswa kwehlulekile: %1$s</string>
+    <string name="empty_fields">Sicela ugcwalise zombili izinkambu</string>
+    <string name="google_sign_in_failed">Ukungena kwe-Google kwehlulekile: %1$s</string>
+    <!-- Strings for the Main Menu screen -->
+    <string name="single_player_button_text">Umuntu Oyedwa</string>
+    <string name="exit_warning_title">Isixwayiso</string>
+    <string name="exit_warning_message">Uqinisekile ukuthi ufuna ukuphuma emdlalweni?</string>
+    <!-- Strings for the Register screen -->
+    <string name="sign_up_title">Bhalisela</string>
+    <string name="register_account">Bhalisela i-akhawunti entsha</string>
+    <string name="register_button_text">Bhalisela</string>
+    <string name="already_have_account">Usunayo i-akhawunti?</string>
+    <string name="confirm_password_hint">Qinisekisa Iphasiwedi</string>
+    <string name="password_mismatch_error">Amaphasiwedi awafani</string>
+    <string name="log_in_text">Ngena</string>
+    <!-- Strings for the Settings screen -->
+    <string name="settings_title">Izilungiselelo</string>
+    <string name="logo_description">Isithombe seLogo</string>
+    <string name="user_email">jamesstone19@gmail.com</string>
+    <string name="dark_mode">Imodi Emnyama</string>
+    <string name="dark_mode_description">Vumela Imodi YeNtsimbi</string>
+    <string name="notification">Isaziso</string>
+    <string name="notification_description">Vumela Izaziso</string>
+    <string name="biometric_auth">Ukuqinisekisa Okubiyelwe</string>
+    <string name="biometric_auth_description">Vumela Ukuqinisekiswa Kwe-Biometric</string>
+    <string name="select_language">Khetha Ulimi</string>
+    <string name="back">Emuva</string>
+    <string name="language">Ulimi</string>
+    <string name="logout">Phuma</string>
+    <string name ="change_language">Shintsha Ulimi</string>
+    <string name ="save">Gcina</string>
+    <string name="biometrics_enabled">I-Biometrics ivuliwe</string>
+    <string name="biometrics_disabled">I-Biometrics ivaliwe</string>
+    <string name="notifications_enabled">Izaziso zivuliwe</string>
+    <string name="notifications_disabled">Izaziso zivaliwe</string>
+    <string name="language_selection_title">Khetha Ulimi</string>
+    <string name="save_language">Gcina</string>
+    <string name="current_user">Umsebenzisi Wamanje</string>
+    <!-- Strings for the Leaderboard Card -->
+    <string name="score_label">Iphuzu</string>
+    <string name="difficulty_label">Ubunzima</string>
+    <!-- Strings for Game Creation -->
+    <string name="name_taken">Igama selithathiwe. Sicela ukhethe elinye.</string>
+    <string name="game_name_exists">Umdlalo ongalegama usukhona. Zama elinye igama.</string>
+    <string name="choose_pictures">Sicela ukhethe izithombe zomdlalo wakho.</string>
+    <string name="error_saving_game">Kube nephutha ngesikhathi kugcinwa umdlalo. Sicela uzame futhi.</string>
+    <string name="failed_checking_game_exists">Kwehlulekile ukuhlola ukuthi umdlalo uyatholakala. Sicela uzame futhi.</string>
+    <string name="failed_upload_image">Kwehlulekile ukuthumela isithombe. Sicela uzame futhi.</string>
+    <string name="upload_failed">Ukudalwa komdlalo kwehlulekile</string>
+    <string name="upload_complete">Ukukhishwa kuqediwe! Ukuze udlale umdlalo, wabelane ngekhodi ( %1$s )</string>
+    <string name="ok">Kulungile</string>
+    <string name="game_creation_failed">Iphutha ekudalweni komdlalo</string>
+    <!-- Strings for DownloadActivity -->
+    <string name="name_blank">Igama lomdlalo alikwazi ukuba libe nqunu</string>
+    <!-- Strings for GameActivity -->
+    <string name="not_found">Uxolo, asitholanga umdlalo onjengale</string>
+    <string name="invalid_move">Izenzo ezingavumelekile</string>
+    <string name="game_already_won">Usuwinile</string>
+    <string name="new_high_score">Iphuzu Eliphezulu Elisha</string>
+    <string name="win_message">Uphumelele!</string>
+    <string name="moves_label">Izinyathelo: %1$d</string>
+    <string name="pairs_label">Iziphakamiso: %1$d / %2$d</string>
+    <!-- Strings for notifications -->
+    <string name="notification_title">Umdlalo Wokuhlangana</string>
+    <string name="notification_body">Buya uphinde udlale!</string>
+    <!-- Strings for Register -->
+    <string name="join_now">Joyina Manje</string>
+    <string name="email_hint">Faka i-imeyili yakho</string>
+    <string name="password_hint">Faka iphasiwedi yakho</string>
+    <string name="register">Bhalisela</string>
+    <string name="password_length_error">Iphasiwedi kumele ibe okungenani nezincwadi eziyi-6</string>
+    <string name="fill_fields_error">Sicela ugcwalise zombili izinkambu</string>
+    <string name="verification_email_sent">I-imeyili yokuqinisekisa ithunyelwe ku-%1$s</string>
+    <string name="registration_failed">Ugbhaliso lwehlulekile: %1$s</string>
+    <!-- Strings for Splash Activity -->
+    <string name="biometric_prompt_title">Ukuqinisekiswa Kwe-Biometric</string>
+    <string name="biometric_prompt_subtitle">Qinisekisa usebenzisa amakhredenshali akho e-biometric</string>
+    <string name="security_setup_required">Ukusethwa Kwezokuphepha Kuyadingeka</string>
+    <string name="setup_screen_lock_message">Ukusebenzisa lesi sici, sicela usethe ukhiye wesikrini (PIN, iphethini, noma iphasiwedi) kuzilungiselelo zedivayisi yakho.</string>
+    <string name="go_to_settings">Iya Kuzilungiselelo</string>
+    <string name="cancel">Phuma</string>
+    <!-- Strings for Download Activity -->
+    <string name="game_not_found">Umdlalo %1$s awutholakali noma awekho izithombe</string>
+    <string name="game_not_exist">Umdlalo %1$s awukho</string>
+    <string name="error_checking_game">Iphutha ekuhloleni umdlalo: %1$s</string>
+    <!-- Strings for PermissionUtils -->
+    <string name="permission_required">Imvume Iyadingeka</string>
+    <string name="permission_required_message">Lolu hlelo ludinga izimvume ezithile ukuze lusebenza kahle.</string>
+</resources>

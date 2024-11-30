@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings for the achievement card layout -->
+    <string name="achievement_name_label">Nombre del Logro</string>
+    <string name="achievement_status_locked">Estado: Bloqueado</string>
+    <string name="achievement_status_unlocked">Estado: Desbloqueado</string>
+    <string name="achievement_unlocked">¡Logro desbloqueado!</string>
+    <!-- Strings for the achievements screen -->
+    <string name="achievements_heading_label">Logros</string>
+    <!-- Strings for the create game screen -->
+    <string name="match_it_title">¡Igualalo!</string>
+    <string name="create_game_title">Crear Juego</string>
+    <string name="game_name_hint">Nombre del juego (ejemplo: pandafun)</string>
+    <string name="continue_button_text">Continuar</string>
+    <!-- Strings for difficulty selection screen -->
+    <string name="select_difficulty">Seleccionar Dificultad</string>
+    <string name="difficulty_easy">Fácil (4 x 2)</string>
+    <string name="difficulty_medium">Medio (6 x 3)</string>
+    <string name="difficulty_hard">Difícil (6 x 4)</string>
+    <!-- Strings for GameActivity -->
+    <string name="moves_text">Movimientos:</string>
+    <string name="pairs_text">Pares:</string>
+    <!-- Strings for the Game Sharing screen -->
+    <string name="game_sharing_title">Compartir Juego</string>
+    <string name="create_button_text">Crear</string>
+    <string name="download_button_text">Descargar</string>
+    <!-- Strings for the Game Over screen -->
+    <string name="game_over_title">Juego Terminado</string>
+    <string name="high_score_label">Puntuación Más Alta: </string>
+    <string name="score_doubled">¡Puntuación duplicada!</string>
+    <string name="ad_loaded_message">Anuncio cargado. ¡Toca Duplicar Puntuación!</string>
+    <string name="ad_load_failed_message">Error al cargar el anuncio: %1$s</string>
+    <string name="ad_not_ready_message">Anuncio no disponible. Por favor, intenta de nuevo.</string>
+    <string name="new_high_score_message">Nueva Puntuación Más Alta</string>
+    <string name="you_won_message">¡Ganaste!</string>
+    <!-- Strings for the Help screen -->
+    <string name="help_title">Cómo Jugar ¡Igualalo!</string>
+    <string name="how_to_play_text">Para jugar ¡Igualalo!, primero debes seleccionar entre otras opciones de un jugador o de compartir juegos. Una vez seleccionada una opción, puedes elegir tu configuración de dificultad, que determinará el número de cartas en el juego. Para jugar, debes voltear dos cartas; la segunda carta debe coincidir con la primera que selecciones y permanecerá volteada. Para ganar, debes voltear todas las cartas en la pantalla.</string>
+    <!-- Strings for the Leaderboard screen -->
+    <string name="leaderboard_title">Tabla de Clasificación</string>
+    <!-- Strings for the Login screen -->
+    <string name="welcome_back">Bienvenido de Nuevo</string>
+    <string name="log_into_account">Inicia sesión en tu cuenta</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="google_login_button">Continuar con </string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="or">o</string>
+    <string name="no_account">¿No tienes una cuenta aún?</string>
+    <string name="login_failed">Autenticación fallida: %1$s</string>
+    <string name="empty_fields">Por favor, completa ambos campos</string>
+    <string name="google_sign_in_failed">Error al iniciar sesión con Google: %1$s</string>
+    <!-- Strings for the Main Menu screen -->
+    <string name="single_player_button_text">Un Jugador</string>
+    <string name="exit_warning_title">Advertencia</string>
+    <string name="exit_warning_message">¿Estás seguro de que quieres salir del juego?</string>
+    <!-- Strings for the Register screen -->
+    <string name="sign_up_title">Registrarse</string>
+    <string name="register_account">Registrar una nueva cuenta</string>
+    <string name="register_button_text">Registrar</string>
+    <string name="already_have_account">¿Ya tienes una cuenta?</string>
+    <string name="log_in_text">Iniciar sesión</string>
+    <string name="confirm_password_hint">Confirmar contraseña</string>
+    <string name="password_mismatch_error">Las contraseñas no coinciden</string>
+    <!-- Strings for the Settings screen -->
+    <string name="settings_title">Configuraciones</string>
+    <string name="logo_description">Imagen del Logo</string>
+    <string name="user_email">jamesstone19@gmail.com</string>
+    <string name="dark_mode">Modo Oscuro</string>
+    <string name="dark_mode_description">Habilitar Modo Noche</string>
+    <string name="notification">Notificación</string>
+    <string name="notification_description">Habilitar Notificaciones</string>
+    <string name="biometric_auth">Autenticación Biométrica</string>
+    <string name="biometric_auth_description">Habilitar Autenticación Biométrica</string>
+    <string name="select_language">Seleccionar Idioma</string>
+    <string name="back">Atrás</string>
+    <string name="language">Idioma</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name ="change_language">Cambiar Idioma</string>
+    <string name ="save">Guardar</string>
+    <string name="biometrics_enabled">Biometría habilitada</string>
+    <string name="biometrics_disabled">Biometría deshabilitada</string>
+    <string name="notifications_enabled">Notificaciones habilitadas</string>
+    <string name="notifications_disabled">Notificaciones deshabilitadas</string>
+    <string name="language_selection_title">Seleccionar Idioma</string>
+    <string name="save_language">Guardar</string>
+    <string name="current_user">Usuario Actual</string>
+    <!-- Strings for the Leaderboard Card -->
+    <string name="score_label">Puntuación</string>
+    <string name="difficulty_label">Dificultad</string>
+    <!-- Strings for Game Creation -->
+    <string name="name_taken">Nombre ya tomado. Por favor, elige otro.</string>
+    <string name="game_name_exists">Ya existe un juego con este nombre. Intenta con un nombre diferente.</string>
+    <string name="choose_pictures">Por favor, elige imágenes para tu juego.</string>
+    <string name="error_saving_game">Ocurrió un error al guardar el juego. Por favor, intenta de nuevo.</string>
+    <string name="failed_checking_game_exists">Error al verificar si el juego existe. Por favor, intenta de nuevo.</string>
+    <string name="failed_upload_image">Error al subir la imagen. Por favor, intenta de nuevo.</string>
+    <string name="upload_failed">Error en la creación del juego</string>
+    <string name="upload_complete">¡Subida completa! Para jugar el juego comparte el código ( %1$s )</string>
+    <string name="ok">OK</string>
+    <string name="game_creation_failed">Excepción en la creación del juego</string>
+    <!-- Strings for DownloadActivity -->
+    <string name="name_blank">El nombre del juego no puede estar vacío</string>
+    <!-- Strings for GameActivity -->
+    <string name="not_found">Lo sentimos, no pudimos encontrar ningún juego así</string>
+    <string name="invalid_move">Movimiento inválido</string>
+    <string name="game_already_won">Ya ganaste</string>
+    <string name="new_high_score">Nueva Puntuación Más Alta</string>
+    <string name="win_message">¡Ganaste!</string>
+    <string name="moves_label">Movimientos: %1$d</string>
+    <string name="pairs_label">Pares: %1$d / %2$d</string>
+    <!-- Strings for notifications -->
+    <string name="notification_title">Juego de Igualar</string>
+    <string name="notification_body">¡Vuelve y juega!</string>
+    <!-- Strings for Register -->
+    <string name="join_now">Únete Ahora</string>
+    <string name="email_hint">Introduce tu correo electrónico</string>
+    <string name="password_hint">Introduce tu contraseña</string>
+    <string name="register">Registrar</string>
+    <string name="password_length_error">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="fill_fields_error">Por favor, completa ambos campos</string>
+    <string name="verification_email_sent">Correo electrónico de verificación enviado a %1$s</string>
+    <string name="registration_failed">La registración falló: %1$s</string>
+    <!-- Strings for Splash Activity -->
+    <string name="biometric_prompt_title">Autenticación Biométrica</string>
+    <string name="biometric_prompt_subtitle">Autentícate usando tus credenciales biométricas</string>
+    <string name="security_setup_required">Se Requiere Configuración de Seguridad</string>
+    <string name="setup_screen_lock_message">Para usar esta función, configure un bloqueo de pantalla (PIN, patrón o contraseña) en la configuración de su dispositivo.</string>
+    <string name="go_to_settings">Ir a Configuración</string>
+    <string name="cancel">Cancelar</string>
+    <!-- Strings for Download Activity -->
+    <string name="game_not_found">Juego %1$s no encontrado o sin imágenes</string>
+    <string name="game_not_exist">Juego %1$s no existe</string>
+    <string name="error_checking_game">Error al verificar el juego: %1$s</string>
+    <!-- Strings for PermissionUtils -->
+    <string name="permission_required">Permiso Requerido</string>
+    <string name="permission_required_message">Esta aplicación requiere ciertos permisos para funcionar correctamente.</string>
+</resources>

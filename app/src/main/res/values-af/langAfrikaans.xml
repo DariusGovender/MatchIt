@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings for the achievement card layout -->
+    <string name="achievement_name_label">Prestasie Naam</string>
+    <string name="achievement_status_locked">Status: Gesper</string>
+    <string name="achievement_status_unlocked">Status: Ontsluit</string>
+    <string name="achievement_unlocked">Prestasie ontsluit!</string>
+    <!-- Strings for the achievements screen -->
+    <string name="achievements_heading_label">Prestasies</string>
+    <!-- Strings for the create game screen -->
+    <string name="match_it_title">Pas Dit</string>
+    <string name="create_game_title">Skep Speletjie</string>
+    <string name="game_name_hint">Speletjie naam (voorbeeld: pandafun)</string>
+    <string name="continue_button_text">Gaan voort</string>
+    <!-- Strings for difficulty selection screen -->
+    <string name="select_difficulty">Kies Moeilikheidsgraad</string>
+    <string name="difficulty_easy">Maklik (4 x 2)</string>
+    <string name="difficulty_medium">Gemiddeld (6 x 3)</string>
+    <string name="difficulty_hard"> moeilik (6 x 4)</string>
+    <!-- Strings for GameActivity -->
+    <string name="moves_text">Beweginge:</string>
+    <string name="pairs_text">Pares:</string>
+    <!-- Strings for the Game Sharing screen -->
+    <string name="game_sharing_title">Speletjie Deel</string>
+    <string name="create_button_text">Skep</string>
+    <string name="download_button_text">Laai Af</string>
+    <!-- Strings for the Game Over screen -->
+    <string name="game_over_title">Speletjie Klaar</string>
+    <string name="high_score_label">Hoogste Punte: </string>
+    <string name="score_doubled">Punte verdubbel!</string>
+    <string name="ad_loaded_message">Ad gelaai. Tik Dubbel Punte!</string>
+    <string name="ad_load_failed_message">Kon nie ad laai nie: %1$s</string>
+    <string name="ad_not_ready_message">Ad nie gereed nie. Probeer weer.</string>
+    <string name="new_high_score_message">Nuwe Hoogste Punte</string>
+    <string name="you_won_message">Jy het gewen!</string>
+    <!-- Strings for the Help screen -->
+    <string name="help_title">Hoe om Pas Dit te Speel!</string>
+    <string name="how_to_play_text">Om Pas Dit te speel, moet jy eers van ander Enkel-Speler of Speletjie Deel opsies kies. Sodra \'n opsie gekies is, kan jy jou moeilikheidsgraad instel, wat die aantal kaarte in die speletjie sal bepaal. Om te speel, moet jy twee kaarte omdraai; die tweede kaart moet ooreenstem met die eerste een wat jy kies, en sal omgedraai bly. Om te wen, moet jy al die kaarte op die skerm omdraai.</string>
+    <!-- Strings for the Leaderboard screen -->
+    <string name="leaderboard_title">Leierbord</string>
+    <!-- Strings for the Login screen -->
+    <string name="welcome_back">Welkom Terug</string>
+    <string name="log_into_account">Log terug in jou rekening</string>
+    <string name="login">Teken In</string>
+    <string name="google_login_button">Gaan voort met </string>
+    <string name="login_button">Teken In</string>
+    <string name="or">of</string>
+    <string name="no_account">Het jy nog nie \'n rekening nie?</string>
+    <string name="login_failed">Authentisering het gefaal: %1$s</string>
+    <string name="empty_fields">Vul asseblief albei velde in</string>
+    <string name="google_sign_in_failed">Google teken in het gefaal: %1$s</string>
+    <!-- Strings for the Main Menu screen -->
+    <string name="single_player_button_text">Enkel-Speler</string>
+    <string name="exit_warning_title">Waarskuwing</string>
+    <string name="exit_warning_message">Is jy seker jy wil die speletjie verlaat?</string>
+    <!-- Strings for the Register screen -->
+    <string name="sign_up_title">Teken In</string>
+    <string name="register_account">Registreer \'n nuwe rekening</string>
+    <string name="register_button_text">Registreer</string>
+    <string name="already_have_account">Het jy al \'n rekening?</string>
+    <string name="confirm_password_hint">Bevestig Wagwoord</string>
+    <string name="password_mismatch_error">Wagwoorde stem nie ooreen nie</string>
+    <string name="log_in_text">Teken in</string>
+    <!-- Strings for the Settings screen -->
+    <string name="settings_title">Instellings</string>
+    <string name="logo_description">Logo Beeld</string>
+    <string name="user_email">jamesstone19@gmail.com</string>
+    <string name="dark_mode">Donker Modus</string>
+    <string name="dark_mode_description">Aktiveer Nagmodus</string>
+    <string name="notification">Kennisgewing</string>
+    <string name="notification_description">Aktiveer Kennisgewings</string>
+    <string name="biometric_auth">Biometriese Auth</string>
+    <string name="biometric_auth_description">Aktiveer Biometriese Verifikasie</string>
+    <string name="select_language">Kies Taal</string>
+    <string name="back">Terug</string>
+    <string name="language">Taal</string>
+    <string name="logout">Teken Uit</string>
+    <string name ="change_language">Verander Taal</string>
+    <string name ="save">Stoor</string>
+    <string name="biometrics_enabled">Biometrie geaktiveer</string>
+    <string name="biometrics_disabled">Biometrie gedeaktiveer</string>
+    <string name="notifications_enabled">Kennisgewings geaktiveer</string>
+    <string name="notifications_disabled">Kennisgewings gedeaktiveer</string>
+    <string name="language_selection_title">Kies Taal</string>
+    <string name="save_language">Stoor</string>
+    <string name="current_user">Huidige Gebruiker</string>
+    <!-- Strings for the Leaderboard Card -->
+    <string name="score_label">Punte</string>
+    <string name="difficulty_label">Moeilikheidsgraad</string>
+    <!-- Strings for Game Creation -->
+    <string name="name_taken">Naam reeds geneem. Kies asseblief \'n ander.</string>
+    <string name="game_name_exists">\'n Speletjie met hierdie naam bestaan reeds. Probeer \'n ander naam.</string>
+    <string name="choose_pictures">Kies asseblief prente vir jou speletjie.</string>
+    <string name="error_saving_game">Daar het \'n fout voorgekom terwyl die speletjie gestoor is. Probeer asseblief weer.</string>
+    <string name="failed_checking_game_exists">Kon nie nagaan of die speletjie bestaan nie. Probeer weer.</string>
+    <string name="failed_upload_image">Kon nie beeld oplaai nie. Probeer asseblief weer.</string>
+    <string name="upload_failed">Speletjie skepping het gefaal</string>
+    <string name="upload_complete">Oplaai voltooi! Om die speletjie te speel, deel die kode ( %1$s )</string>
+    <string name="ok">OK</string>
+    <string name="game_creation_failed">Uitsondering met speletjie skepping</string>
+    <!-- Strings for DownloadActivity -->
+    <string name="name_blank">Speletjie naam kan nie leeg wees nie</string>
+    <!-- Strings for GameActivity -->
+    <string name="not_found"> jammer, ons kon nie enige sulke speletjie vind nie</string>
+    <string name="invalid_move">Ongeldige beweging</string>
+    <string name="game_already_won">Jy het reeds gewen</string>
+    <string name="new_high_score">Nuwe Hoogste Punte</string>
+    <string name="win_message">Jy het gewen!</string>
+    <string name="moves_label">Beweginge: %1$d</string>
+    <string name="pairs_label">Pares: %1$d / %2$d</string>
+    <!-- Strings for notifications -->
+    <string name="notification_title">Pas Speletjie</string>
+    <string name="notification_body">Kom terug en speel!</string>
+    <!-- Strings for Register -->
+    <string name="join_now">Sluit Nou Aan</string>
+    <string name="email_hint">Voer jou e-pos in</string>
+    <string name="password_hint">Voer jou wagwoord in</string>
+    <string name="register">Registreer</string>
+    <string name="password_length_error">Wagwoord moet ten minste 6 karakters wees</string>
+    <string name="fill_fields_error">Voltooi asseblief albei velde</string>
+    <string name="verification_email_sent">Verifikasiemail gestuur na %1$s</string>
+    <string name="registration_failed">Registrasie het gefaal: %1$s</string>
+    <!-- Strings for Splash Activity -->
+    <string name="biometric_prompt_title">Biometriese Outentisering</string>
+    <string name="biometric_prompt_subtitle">Outentiseer met jou biometriese inligting</string>
+    <string name="security_setup_required">Sekuriteitsinstelling Vereis</string>
+    <string name="setup_screen_lock_message">Om hierdie funksie te gebruik, stel asseblief \'n skermslot (PIN, patroon of wagwoord) in jou toestel se instellings op.</string>
+    <string name="go_to_settings">Gaan na Instellings</string>
+    <string name="cancel">Kanselleer</string>
+    <!-- Strings for Download Activity -->
+    <string name="game_not_found">Speletjie %1$s nie gevind of geen beelde nie</string>
+    <string name="game_not_exist">Speletjie %1$s bestaan nie</string>
+    <string name="error_checking_game">Fout tydens speletjiekontrole: %1$s</string>
+    <!-- Strings for PermissionUtils -->
+    <string name="permission_required">Toestemming Vereis</string>
+    <string name="permission_required_message">Hierdie program benodig sekere toestemmings om behoorlik te funksioneer.</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    --System UI--
+    <color name="grayed">#E0E0E0</color>
+    <color name="color_progress_none">#DC1E0B</color>
+    <color name="color_progress_full">#35BA01</color>
+    <color name="transparent">#00000000</color>">
+
+    --Light Mode--
+    <color name="primary">#F3758E</color>
+    <color name="secondary">#4B1B24</color>
+    <color name="background">#FCF2F0</color>
+    <color name="accent">#CA6583</color>
+    <color name="text">#FFFFFF</color>
+    <color name="textHeading">#000000</color>
+
+    --Dark Mode--
+    <color name="textDark">#FFFFFF</color>
+    <color name="textHeadingDark">#FFFFFF</color>
+    <color name="backgroundDark">#110603</color>
+    <color name="primaryDark">#880c25</color>
+    <color name="secondaryDark">#e4b4bd</color>
+    <color name="accentDark">#824635</color>
+</resources>

@@ -1,0 +1,60 @@
+import admin from 'firebase-admin';
+import * as functions from 'firebase-functions';
+
+admin.initializeApp();
+
+exports.handler = async (event) => {
+    if (event.httpMethod === 'GET') {
+        const snapshot = await admin.firestore().collection('leaderboard').get();
+        const scores = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+        return {
+            statusCode: 200,
+            body: JSON.stringify(scores)
+        };
+    } else if (event.httpMethod === 'POST') {
+        const body = JSON.parse(event.body);
+        const { email, score, difficulty, type } = body;
+
+        const leaderboardRef = admin.firestore().collection('leaderboard');
+
+        // Checks if an entry for the same user, difficulty, and type exists
+        const query = leaderboardRef
+            .where('email', '==', email)
+            .where('difficulty', '==', difficulty)
+            .where('type', '==', type);
+        
+        const snapshot = await query.get();
+
+        if (!snapshot.empty) {
+            // Checks if the new score is higher than the existing score
+            const existingDoc = snapshot.docs[0];
+            const existingData = existingDoc.data();
+            
+            if (score > existingData.score) {
+                // Update the score
+                await leaderboardRef.doc(existingDoc.id).update({ score });
+                return {
+                    statusCode: 200,
+                    body: JSON.stringify({ message: 'Score updated' })
+                };
+            } else {
+                return {
+                    statusCode: 200,
+                    body: JSON.stringify({ message: 'Existing score is higher, no update' })
+                };
+            }
+        } else {
+            // Adds a new entry if tthere is no record already
+            await leaderboardRef.add(body);
+            return {
+                statusCode: 201,
+                body: JSON.stringify({ message: 'Score added' })
+            };
+        }
+    }
+
+    return {
+        statusCode: 400,
+        body: JSON.stringify({ message: 'Unsupported method' })
+    };
+};
