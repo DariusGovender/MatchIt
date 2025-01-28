@@ -106,9 +106,9 @@ In the **Achievements** menu, you can:
 https://youtu.be/-6cNUjU5BEI?si=f4iwxk2SfM80cgQw
 
 ## Contribution
-- ST10144906 (Darius Govender ~ Team Leader)
+- ST10144906 (Darius Govender)
 - ST10204523 (Jaden Peramul)
-- ST10069637 (Jordan Farrell)
+- ST10069637 (Jordan Farrell  ~ Team Leader)
 - ST10108175 (Cael Botha-Richards) 
 
 
